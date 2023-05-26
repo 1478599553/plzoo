@@ -1,6 +1,6 @@
 module Calc = Zoo.Main(struct
   let name = "calc"
-
+  
   type command = Syntax.expression
 
   type environment = unit
